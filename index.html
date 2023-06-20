@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0">
+    <title>Dr Linda Merouani Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+	    
+<body>
+   
+         <!-- lenttete --> 
+		 
+	<header class="head" >
+		<div class="logo"> <span>Doctor </span>Généraliste</div>
+		
+        <label>
+			<input type="checkbox">
+			<span class="check"></span>
+        </label>
+		<ul class="menu">
+			<a href="#" onclick="openModal()">Consultation</a>
+			<a href="#service">Services</a>
+			<a href="#avis">Avis Clients</a>
+			<a href="#contact">Contact</a>
+		</ul>	
+	</header>
+
+    <!-- home -->
+
+	<section class="home" id="haut">
+		<div class="home-infos">
+			<h1>Dr Linda Merouani</h1>
+			<p>Doctorat en Médecine de la faculté d'Alger en 2004,</br>19 années d'expertise s'occupera de votre santé</p>
+			
+			
+			<button onclick="openModal()">OBTENIR UN DEVIS</button>
+		</div>	
+			<div id="modal" class="modal">
+			<div class="modal-content">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<h2 id="titr">OBTENIR UN DEVIS</h2>
+	
+	 <!-- form demande devis -->
+	
+    <form>
+	  <div class="form-group">
+		<input type="text" id="nom" placeholder="NOM">
+      </div>
+	  
+	  <div class="form-group">
+		<input type="text" id="number" placeholder="MOBILE" >
+      </div>
+	  
+	  <div class="form-group">
+		<input type="email" id="email" placeholder="EMAIL">
+      </div>
+	  
+	  <div class="form-group">
+		<label for="email" >Message : </label>
+		<textarea placeholder="Je souhaiterais en savoir plus sur vos disponibilités et taris pour les services disponibles" cols="60" rows="6" id="message"></textarea>
+      </div>
+	  
+	  <div class="form-group">
+		<button id="envoye" type="submit" title="Veuillez remplir toutes les champs svp" >Envoyer</button>
+	  </div>
+    </form>
+      </div>
+      </div>
+		
+	</section>
+	
+	<!-- services -->
+	
+	<section class="services" id="service">
+		<h1 class="title">NOS SERVICES</h1>
+		<p class="sub-title">Offrir une experience exceptionnelle aux patient , via notre large gamme de services</p>
+		<div class="list-services">
+			<div class="box">
+				<h1>SOINS FAMILIAUX</h1>
+				<p>Des soins avec rendez-vous le jour même aux consultations en ligne, nous prendrons bien soin de vous.</P>
+			</div>	
+			<div class="box">
+				<h1>SOINS URGENTS</h1>
+				<p>Des soins sans rendez-vous le jour même , nous préviligiont toujours les cas urgent.</P>
+			</div>
+			<div class="box">
+				<h1>CONSULTATION A DOMICILE</h1>
+				<p>En peut également se déplacer à domicile de nos patients si leur condition de santé le nécessitent. </P>
+			</div>
+			<div class="box">
+				<h1>EXAMEN COMPLEMENTAIRE</h1>
+				<p>Nous vos permettons déffectuer des examen au meme cabinet comme : électrocardiogramme , prélevement sangin.</P>
+			</div>
+
+		</div>	
+			
+	</section>
+	           
+		 <!-- gallerie dimage -->	   
+			   
+	<section class="gallerys">
+	    <div class="gallery">
+                <h1>Gallery</h1>
+        <div class="main-gallery">
+            <div class="inner-gallery">
+                <img src="images/gal11.png" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal12.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal13.jpg" alt="">
+            </div>
+
+            <div class="inner-gallery">
+                <img src="images/gal14.jpg" alt="">
+            </div>
+
+         
+            </div>
+        </div>
+	</section>
+	
+	
+	
+	<!-- Our goal -->
+	
+	<section class="our-goal">
+		<div class="left" id="avis">
+			<span>Avis Patients</span>
+			<h1>....<br/>L'objectif spécifique de la thérapie sera déterminé par vous-même et votre thérapeute.</h1>
+		</div>
+		<div class="right">
+			<p>"Excellente medecin bravo et bonne continuation" ... NARIMANE.L</p> </br>
+			<p>"Quelle profesionalisme a recomander" ... YASMINE.H</p> </br>
+			<p>"Trés bon sens de l'accueil avec un profond sens de l'écoute" ... SALIM.B </p> <br/><br/>
+			<a href="#">L'aisser un avis</a>
+		</div>
+	</section>		
+	
+	<!-- banner -->
+    <section class="banner">
+
+		<div class="video-container">
+			<iframe width="360" height="315" src="https://www.youtube.com/embed/2bBvFUnNupY?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+    </section>
+
+	
+	<!-- footer-contact -->
+	
+	<footer>
+		<h1 class="title" id="contact">Nos contact</h1></br>
+		<div class="contact">
+			<div class="class-form">
+				<h3>Appeler maintenant :</h3>
+				<p>021 64 43 21  </br> 0541 73 46 43</p>
+                </br>
+					<h3>Iténiraire :</h3>
+				<p>Addresse : 02 , rue frères Khalfi arrêt de bus meissonier Rue Didouche Mourad El Djazair 16000 Algérie</p>
+                </br>
+
+                <h3>Horaires d'ouverture :</h3>
+				<p>Samedi A Jeudi : 09:00 - 16:00 </p>
+
+		
+		    </div>
+			
+		<div>
+			<div class="address" >
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.160865785612!2d3.0513400378893314!3d36.76670816970617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb25e44d766a1%3A0x7f102e630728361c!2sRue%20Khelifa%20Boukhalfa%2C%20Alger%2016000!5e0!3m2!1sfr!2sdz!4v1687177381092!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+
+	</footer>	
+	
+	<div class="end">
+		
+	 <a href="#haut" > 
+	 <img src="images/haut.png" alt="Haut de Page">
+	 </a>
+	 <p>Réalisé par @JemsDev...2023</p>
+	<script src="script.js"></script>		
+</body>
+</html>
