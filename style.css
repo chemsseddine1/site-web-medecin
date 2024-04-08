@@ -125,7 +125,7 @@ header .menu a:hover {
                                  /*Home */
 .home {
 	height: calc(100vh - 55px);
-	background: url("images/img2.png");
+	background: url("img2.png");
 	background-position: center;
 	background-size: cover;
 	display: flex;
